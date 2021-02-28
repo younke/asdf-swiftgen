@@ -57,9 +57,7 @@ install_version() {
     unzip "$release_file" -d "$install_path" || fail "Could not extract $release_file"
     rm "$release_file"
 
-    local tool_cmd
-    tool_cmd="$(echo "swiftgen --help" | cut -d' ' -f1)"
-    test -x "$install_path/bin/$tool_cmd" || fail "Expected $install_path/bin/$tool_cmd to be executable."
+    test -x "$install_path/bin/swiftgen" || fail "Expected $install_path/bin/swiftgen to be executable."
 
     echo "swiftgen $version installation was successful!"
   ) || (
