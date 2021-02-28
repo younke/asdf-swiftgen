@@ -16,8 +16,7 @@
 
 # Dependencies
 
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `bash`, `curl`, `unzip`: generic POSIX utilities.
 
 # Install
 
@@ -26,7 +25,7 @@ Plugin:
 ```shell
 asdf plugin add swiftgen
 # or
-asdf plugin add https://github.com/younke/asdf-swiftgen.git
+asdf plugin add swiftgen https://github.com/younke/asdf-swiftgen.git
 ```
 
 swiftgen:
@@ -44,6 +43,13 @@ asdf global swiftgen latest
 # Now swiftgen commands are available
 swiftgen --help
 ```
+
+# Templates
+
+You probably want to copy SwiftGen bundled `templates` into your project directory.
+
+Read [SwiftGen documentation](https://github.com/SwiftGen/SwiftGen#choosing-your-template) on how to use templates.
+
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
