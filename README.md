@@ -1,6 +1,10 @@
 <div align="center">
 
-# asdf-swiftgen ![Build](https://github.com/younke/asdf-swiftgen/workflows/Build/badge.svg) ![Lint](https://github.com/younke/asdf-swiftgen/workflows/Lint/badge.svg)
+# asdf-swiftgen
+
+[![asdf](https://github.com/younke/asdf-swiftgen/actions/workflows/build.yml/badge.svg)](https://github.com/younke/asdf-swiftgen/actions/workflows/build.yml)
+[![mise](https://github.com/younke/asdf-swiftgen/actions/workflows/test-mise.yml/badge.svg)](https://github.com/younke/asdf-swiftgen/actions/workflows/test-mise.yml)
+[![lint](https://github.com/younke/asdf-swiftgen/actions/workflows/lint.yml/badge.svg)](https://github.com/younke/asdf-swiftgen/actions/workflows/lint.yml)
 
 [swiftgen](https://github.com/SwiftGen/SwiftGen) plugin for the [asdf version manager](https://asdf-vm.com).
 
@@ -49,7 +53,6 @@ swiftgen --help
 You probably want to copy SwiftGen bundled `templates` into your project directory.
 
 Read [SwiftGen documentation](https://github.com/SwiftGen/SwiftGen#choosing-your-template) on how to use templates.
-
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
